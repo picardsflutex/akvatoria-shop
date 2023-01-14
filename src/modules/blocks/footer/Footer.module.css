@@ -1,0 +1,26 @@
+.footer{
+  position: absolute;
+  max-width: 1360px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 5px auto;
+}
+
+.footerInner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+.text{
+  text-decoration: none;
+}
+
+.license{
+  text-align: center;
+}
