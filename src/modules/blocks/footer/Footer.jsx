@@ -1,22 +1,37 @@
 import React from 'react'
 import styles from './Footer.module.css'
+import Socials from '../../complexComponents/Socials/Socials'
+import Logo from '../../basicComponents/Logo/Logo'
+import AdvButton from '../../basicComponents/AdvButton/AdvButton'
+import AdvLink from '../../basicComponents/AdvLink/AdvLink'
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <div className={styles.footerInner}>
-        <nav className={styles.navigation}>
-          <div className={styles.navlink}>Оплата та акції</div>
-          <div className={styles.navlink}>Доставка</div>
-          <div className={styles.navlink}>Про компанію</div>
+      <div className={styles.footerMenu}>
+        <div className={styles.footerInfo}>
+          <Logo/>
+          <Socials/>
+          <AdvButton>ContactUs</AdvButton>
+        </div>
+        <nav className={styles.footerNav}>
+          <AdvLink>Працювати разом</AdvLink>
+          <AdvLink>Вакансії</AdvLink>
+          <AdvLink>Оплата та акції</AdvLink>
+          <AdvLink>Доставка</AdvLink>
+          <AdvLink>Про компанію</AdvLink>          
+          <AdvLink>Вказати на помилку</AdvLink>
         </nav>
-        <div className={styles.info}>
-          <a href="tel:+380999999999" className={styles.text}>Номер: +38(099) 999-99-99</a>
-          <a href="tel:+380999999999" className={styles.text}>Номер: +38(099) 999-99-99</a>
-          <a href="mailto:infoCentr@gmail.com" className={styles.text}>Поштова скринька: infoCentr@gmail.com</a>
+      </div>
+      <div className={styles.license}>
+        <div className={styles.rights}>
+          ©2023 TheMarbel, Inc. - All Rights Reserved
+        </div>
+        <div className={styles.licenseLinks}>
+          <AdvLink>Умови користування</AdvLink>
+          <AdvLink>Конфіденційність</AdvLink>
         </div>
       </div>
-      <div className={styles.license}>Ukraine, Zaporizhzhya. Developed by PicardsFlutex 2023.</div>
     </div>
   )
 }

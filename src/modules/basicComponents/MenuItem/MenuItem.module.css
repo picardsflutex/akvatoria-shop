@@ -1,0 +1,38 @@
+.menuItem{
+  background-image: url(./menuItem-bg.jpg);
+  background-size: 150%;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  border-radius: 30px;
+  margin: 20px 0;
+}
+
+.menuItem:nth-child(4n+1){
+  background-position: top;
+}
+
+.menuItem:nth-child(4n+2){
+  background-position: left;
+}
+
+.menuItem:nth-child(4n+3){
+  background-position: bottom;
+}
+
+.menuItem:nth-child(4n+4){
+  background-position: right;
+}
+
+.itemImg{
+  height: 20px;
+}
+
+.itemText{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  color: black;
+}

@@ -2,13 +2,12 @@ import React from 'react'
 import styles from './Header.module.css'
 import avatar from './../../../images/main/avatar.png'
 import more from './../../../images/main/arrow.png'
+import Logo from '../../basicComponents/Logo/Logo'
 
 const Header = () => {
   return (
     <div className={styles.header}>
-      <div className={styles.logo}>
-        TheMARBEL
-      </div>
+      <Logo/>
       <nav className={styles.navigation}>
 				<div className={styles.navlink}>Головна</div>
 				<div className={styles.navlink}>Каталог</div>
