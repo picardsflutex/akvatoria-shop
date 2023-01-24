@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './Offers.module.css'
-import MenuItem from '../../basicComponents/MenuItem/MenuItem'
-import ProductCard from '../../basicComponents/ProductCard/ProductCard'
+import MenuItem from '../../complexComponents/MenuItem/MenuItem'
+import ProductCard from '../../complexComponents/ProductCard/ProductCard'
 
 const Offers = () => {
   return (
-    <div className={styles.offer}>
+    <section className={styles.offer}>
       <div className={styles.offerMenu}>
         <MenuItem/>
         <MenuItem/>
@@ -24,7 +24,7 @@ const Offers = () => {
         <ProductCard/>
         <ProductCard/>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -1,0 +1,113 @@
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin: 80px 0;
+}
+
+.contactsFAQs{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.FAQsCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5em;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.cardTitle{
+  position: relative;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cardTitle::after{
+  content: '';
+  position: absolute;
+  background-image: url(./Vector.svg);
+  top: 0;
+  right: 0;
+}
+
+.cardDescription{
+  display: none;
+}
+
+.contactsUs{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  margin-bottom: 20px;
+}
+
+.text{
+  margin-bottom: 10px;
+}
+
+.input{
+  background: inherit;
+  padding: 12px 24px;
+  border-radius: 70px;
+  border: 1px solid #fff;
+  outline: none;
+  margin: 12px;
+}
+
+.submit{
+  display: block;
+  background: inherit;
+  padding: 12px 36px;
+  max-width: 200px;
+  border-radius: 70px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin: 12px;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  transition: all .3s linear;
+}
+
+.submit:hover, .submit:focus{
+  background-color: #fff;
+  color: #000;
+  outline: none;
+}
+
+.button{
+  background: inherit;
+  padding: 6px 12px;
+  cursor: pointer;
+  text-decoration: solid dashed;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button::after{
+  content: '';
+  height: 2px;
+  width: 20px;
+}
+
+.button::before{
+  content: '';
+  height: 20px;
+  width: 20px;
+}

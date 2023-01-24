@@ -1,20 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Montserrat;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  color: #fff;
 }
 
 body{
-    background-color: black;
+  background-color: black;
 }
 
 #root {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App  {
-    width: 1360px;
+  width: 1360px;
+}
+
+section{
+  margin: 80px;
+}
+
+h2{
+  margin-bottom: 20px;
+}
+
+p{
+  margin-bottom: 10px;
 }
