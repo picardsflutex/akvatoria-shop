@@ -1,0 +1,30 @@
+.howItWork{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info{
+  width: 50%;
+  text-align: right;
+}
+
+.stats{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.statsItem{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 15px 0;
+}
+
+.statsNumber{
+  font-size: 48px;
+  font-weight: 900;
+}

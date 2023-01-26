@@ -1,3 +1,11 @@
+.workWith{
+  width: 100%;
+}
+
+.title, .text{
+  text-align: center;
+}
+
 .companiesList{
   display: flex;
   flex-wrap: wrap;

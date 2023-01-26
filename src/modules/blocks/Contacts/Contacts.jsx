@@ -7,21 +7,21 @@ const Contacts = () => {
     <section className={styles.contacts}>
       <div className={styles.contactsFAQs}>
         <div className={styles.FAQsCard}>
-          <div className={styles.cardTitle}>Lorem ipsum dolor sit amet.</div>
-          <div className={styles.cardDescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur eum obcaecati earum hic deleniti!</div>
+          <h2 className={styles.cardTitle}>Lorem ipsum dolor sit amet.</h2>
+          <p className={styles.cardDescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur eum obcaecati earum hic deleniti!</p>
         </div>
         <div className={styles.FAQsCard}>
-          <div className={styles.cardTitle}>Lorem ipsum dolor sit amet.</div>
-          <div className={styles.cardDescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur eum obcaecati earum hic deleniti!</div>
+          <h2 className={styles.cardTitle}>Lorem ipsum dolor sit amet.</h2>
+          <p className={styles.cardDescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur eum obcaecati earum hic deleniti!</p>
         </div>
         <div className={styles.FAQsCard}>
-          <div className={styles.cardTitle}>Lorem ipsum dolor sit amet.</div>
-          <div className={styles.cardDescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur eum obcaecati earum hic deleniti!</div>
+          <h2 className={styles.cardTitle}>Lorem ipsum dolor sit amet.</h2>
+          <p className={styles.cardDescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur eum obcaecati earum hic deleniti!</p>
         </div>
       </div>
       <div className={styles.contactsUs}>
         <form className={styles.contactForm}>
-          <h2 className={styles.title}>Є що спитати?</h2>
+          <h1 className={styles.title}>Є що спитати?</h1>
           <p className={styles.text}>Відсилай нам своє запитання, якщо не знайшов на нього відповідь тут!</p>
           <input type="text" className={styles.input}/>
           <input type="text" className={styles.input}/>
