@@ -1,4 +1,5 @@
 import React from 'react'
+import Accordion from '../../complexComponents/Accordion/Accordion'
 import styles from './Contacts.module.css'
 
 
@@ -6,18 +7,7 @@ const Contacts = () => {
   return (
     <section className={styles.contacts}>
       <div className={styles.contactsFAQs}>
-        <div className={styles.FAQsCard}>
-          <h2 className={styles.cardTitle}>Lorem ipsum dolor sit amet.</h2>
-          <p className={styles.cardDescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur eum obcaecati earum hic deleniti!</p>
-        </div>
-        <div className={styles.FAQsCard}>
-          <h2 className={styles.cardTitle}>Lorem ipsum dolor sit amet.</h2>
-          <p className={styles.cardDescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur eum obcaecati earum hic deleniti!</p>
-        </div>
-        <div className={styles.FAQsCard}>
-          <h2 className={styles.cardTitle}>Lorem ipsum dolor sit amet.</h2>
-          <p className={styles.cardDescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aspernatur eum obcaecati earum hic deleniti!</p>
-        </div>
+        <Accordion/>
       </div>
       <div className={styles.contactsUs}>
         <form className={styles.contactForm}>
